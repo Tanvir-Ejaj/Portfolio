@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/type.css">
+    <link rel="stylesheet" href="css/jquery.rprogessbar.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-9">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-sm-3 text-end">
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <div class="extra-logo">
+                            <img src="images/logo.png" alt="">
+                        </div>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="extra-contact">
+                            <h4>Contact Me</h4>
+                            <p><i class="fa-solid fa-phone"></i>+8801793837221</p>
+                            <p><i class="fa-solid fa-at"></i>tanvirejij@gmail.com</p>
+                            <p><i class="fa-solid fa-location-dot"></i>H-101,P0-5100,Thakurgoan</p>
+                        </div>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <!-- Banner Part Start -->
+
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner-text">
+                        <div class="typed_wrap">
+                            <h1>I am Tushar <br> <span class="typed"></span></h1>
+                        </div>
+                        <div class="banner-btn">
+                            <a href="#">Get a quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner-icon">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Part End -->
+
+
+    <!-- Skill Part Start -->
+
+    <section id="skill">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="skill-image">
+                        <span>My skill</span>
+                        <img src="images/skills.png" alt="skill">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="progressbar-part">
+                        <div class="single-progressbar">
+                            <h4 class="title">Html</h4>
+                            <div class="html"></div>
+                        </div>
+                        <div class="single-progressbar">
+                            <h4 class="title">CSS</h4>
+                            <div class="css"></div>
+                        </div>
+                        <div class="single-progressbar">
+                            <h4 class="title">PHP</h4>
+                            <div class="php"></div>
+                        </div>
+                        <div class="single-progressbar">
+                            <h4 class="title">Javascript</h4>
+                            <div class="javascript"></div>
+                        </div>
+                        <div class="single-progressbar">
+                            <h4 class="title">Jquery</h4>
+                            <div class="jquery"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Part End -->
+
+
+    <!-- Portfolio Part Start -->
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="port-head">
+                        <h6>Portfolio</h6>
+                        <h2>Create Portfolio</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <div class="mixit-btn">
+                        <button type="button" data-filter="all">All</button>
+                        <button type="button" data-filter=".category-a">Lightbox</button>
+                        <button type="button" data-filter=".category-b">Venubox</button>
+                        <button type="button" data-filter=".category-c">Extra</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mixitup">
+                <div class="col-lg-4 col-sm-4 mix category-a">
+                    <div class="port-inner">
+                        <img src="images/portfolio-7.jpg" alt="images">
+                        <div class="overlay">
+                            <a href="images/portfolio-7.jpg" data-lightbox="g" data-title="Gallery"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="port-inner">
+                        <img src="images/portfolio-10.jpg" alt="images">
+                        <div class="overlay">
+                            <a href="images/portfolio-10.jpg" data-lightbox="g" data-title="Gallery"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 mix category-b">
+                    <div class="port-inner">
+                        <img src="images/portfolio-8.jpg" alt="images">
+                        <div class="overlay">
+                            <a class="about-video" data-vbtype="video" href="https://youtu.be/gdQTMY4xpdU"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="port-inner">
+                        <img src="images/portfolio-11.jpg" alt="images">
+                        <div class="overlay">
+                            <a class="about-video" data-vbtype="video" href="https://youtu.be/gdQTMY4xpdU"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 mix category-c mix category-a">
+                    <div class="port-inner">
+                        <img src="images/portfolio-9.jpg" alt="images">
+                        <div class="overlay">
+                            <a href="images/portfolio-9.jpg" data-lightbox="g" data-title="Gallery"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="port-inner">
+                        <img src="images/portfolio-12.jpg" alt="images">
+                        <div class="overlay">
+                            <a href="images/portfolio-12.jpg" data-lightbox="g" data-title="Gallery"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Part End -->
+
+    <!-- Comment Part Start -->
+
+    <!-- <section id="comment">
+        <div class="container">
+            <div class="row justify-content-end align-items-center">
+                <div class="company-extra">
+                    <div class="col-lg-2 text-center">
+                        <div class="company-icon">
+                            <img src="images/brand-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <div class="company-icon">
+                            <img src="images/brand-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <div class="company-icon">
+                            <img src="images/brand-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <div class="company-icon">
+                            <img src="images/brand-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="company-main">
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="comment-inner">
+                            <h2>Client Reviews</h2>
+                            <div class="comment-slide">
+                                <div class="comment-extra">
+                                    <div class="comment-slot">
+                                        <p>Pellentesque luctus elit justo, sit amet rutrum purus pulvinar nec. Praesent rutrum porttitor nunc nec tristique. Vivamus molestie sapien in ornare ornare. Duis blandit metus a ipsum commodo</p>
+                                        <div class="row align-items-center pb-5">
+                                            <div class="col-lg-3 text-center">
+                                                <div class="inner-img">
+                                                    <img src="images/client.jpg" alt="client">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 text-start">
+                                                <div class="inner-text">
+                                                    <h5>Tushar</h5>
+                                                    <p>Devloper</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-extra">
+                                    <div class="comment-slot">
+                                        <p>Pellentesque luctus elit justo, sit amet rutrum purus pulvinar nec. Praesent rutrum porttitor nunc nec tristique. Vivamus molestie sapien in ornare ornare. Duis blandit metus a ipsum commodo</p>
+                                        <div class="row align-items-center pb-5">
+                                            <div class="col-lg-3 text-center">
+                                                <div class="inner-img">
+                                                    <img src="images/client.jpg" alt="client">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 text-start">
+                                                <div class="inner-text">
+                                                    <h5>Shuvo</h5>
+                                                    <p>Designer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-extra">
+                                    <div class="comment-slot">
+                                        <p>Pellentesque luctus elit justo, sit amet rutrum purus pulvinar nec. Praesent rutrum porttitor nunc nec tristique. Vivamus molestie sapien in ornare ornare. Duis blandit metus a ipsum commodo</p>
+                                        <div class="row align-items-center pb-5">
+                                            <div class="col-lg-3 text-center">
+                                                <div class="inner-img">
+                                                    <img src="images/client.jpg" alt="client">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 text-start">
+                                                <div class="inner-text">
+                                                    <h5>Mahfuz</h5>
+                                                    <p>UI Designer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Comment Part End -->
+
+
+    <!-- Contact Part Start -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-head">
+                        <h5>Contact Me</h5>
+                        <h2>Get in touch</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="contact-main">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291524.2341863926!2d88.22274637387123!3d25.93553426034022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4c35d5827f355%3A0x387789b45fbf75f1!2sThakurgaon%20District!5e1!3m2!1sen!2sbd!4v1656524566485!5m2!1sen!2sbd"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Part End -->
+
+    <!-- Copyright Part Start -->
+
+    <section id="copyright">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <div class="second-menu">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <div class="copyright-inner">
+                        <h4>Copyright © 2022 <span><a href="#">Tushar</a></span> Website by Tushar </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright Part End -->
+
+
+    <!-- JQ part Start -->
+
+    <div class="extra-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- JQ part End -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="js/jQuery.rProgressbar.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/venobox.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
